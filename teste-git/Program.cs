@@ -6,12 +6,12 @@ namespace teste_git
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Olá Mundo");
-            Console.WriteLine("Olá Sr. Djalma");
+            Console.WriteLine("Olá Mundo");            
             Console.WriteLine("Como vai você?");
             Console.WriteLine("Digite sua idade:");
             int idade = int.Parse(Console.ReadLine());
             Console.WriteLine("Olá Djalma, vejo que você tem " + idade + " anos. Parabéns.");
+            Console.WriteLine("Tchau. Até mais tarde.");
         }
     }
 }
